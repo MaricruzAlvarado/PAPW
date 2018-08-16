@@ -1,0 +1,40 @@
+body{
+    background-color:darkmagenta;
+    /* background-image: url("../img/foto.png"); */
+}
+
+h2{
+    background-color: whitesmoke;
+    color:darkmagenta;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+h1{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+p, div{
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    color:whitesmoke
+}
+
+.perfil{
+    border-style: solid;
+    border-color: black;
+}
+
+li, ul, ol, table{
+    color:whitesmoke;
+    border-style:solid;
+    border-color: whitesmoke;
+    font-size: 25px;
+}
+
+pre, code, var{
+    color:whitesmoke;
+}
