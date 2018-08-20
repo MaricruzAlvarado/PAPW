@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 234, 239);
+    /* background-image: url("../img/foto.png"); */
+}
+
+li, ul, ol, table{
+    color:lightpink;
+    border-style:solid;
+    border-color:rgb(122, 122, 122);
+    font-size: 34px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: auto;
+    position:fixed;
+    overflow:auto;
+}
+
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 3px 20px 3px; /* Arriba Derecha Abajo Izquierda */
+    text-align: center;
+    background-color:rgb(37, 37, 37);
+    color:white;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px 1px black; 
+    text-anchor: inherit;
+}
+
+li a:hover {
+    background-color: rgb(255, 112, 160);
+    color: whitesmoke;
+}
+li a:link{
+    color: goldenrod;
+}
