@@ -1,0 +1,126 @@
+body{ 
+    background-color:rgb(241, 241, 241);
+    background-image:url("original.jpg") ;
+    overflow-x: hidden; /*Oculta la barra del scroll en X (horizontal)*/ 
+}
+/*BARRA HORIZONTAL DE TITULO*/
+.title{
+    display: block;
+    padding: 10px 0px 5px 40px;
+  /*rgb(228, 170, 228);*/
+    background-color: rgb(90, 14, 90);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#subtitles{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: rgb(156, 55, 156);
+    background-color: rgb(25, 1, 133); 
+}
+
+#registrarse{
+    background-color: darkmagenta; 
+}
+
+#iniciarSesion{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: rgb(90, 14, 90);
+}
+.form-group {
+    font-family: 'Montserrat', sans-serif, bold;
+}
+
+.bloque1{
+    padding: 20px;
+    width: 600px;
+    border: rgb(167, 167, 167) 5px solid;
+    border-radius: 20px;
+    background-color: rgb(230, 195, 230);
+}
+#icon{
+    padding:15px 40px 0px 0px;
+}
+
+/*MENU LATERAL*/
+.menuBar{
+    color:lightpink;
+    display: block;
+    font-size: 15px;
+}
+
+.menuBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: auto;
+}
+.menuBar li {
+    padding: 20px 3px 20px 3px; /* Arriba Derecha Abajo Izquierda */
+    text-align: center;
+    background-color:rgb(27, 27, 27);
+    color:white;
+    font-family: 'Montserrat', sans-serif, bold;  
+}
+
+.menuBar li:hover {
+    background-color: rgb(78, 28, 7);
+    color: whitesmoke;
+}
+/*MORE BAR*/
+.more {
+    display: block;
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la derecha */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+.more ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+.more ul li {
+	
+    color:#fff;
+    margin: 5px;
+	background:rgb(27, 27, 27);
+	padding: 10px 15px;
+   
+    border-radius: 18px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.more ul li:hover{
+	background: rgb(78, 28, 7); /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 40px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+.more a{
+    color:rgb(241, 241, 241);
+}
+/*INFO BAR*/
+.infoBar{
+    padding: 40px 3px 100px 3px;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+}
+/*TODO EL CONTENIDO*/
+#Productos{
+    background-color: rgb(245, 245, 245);
+   height: 900px;
+   text-align: center;
+}
+#Ofertas{
+    background-color: rgb(243, 211, 223);
+    height: 900px;
+    text-align : center;
+}
+.btn-default{
+    background-color: rgb(243, 211, 223);
+}

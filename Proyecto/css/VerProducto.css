@@ -1,0 +1,101 @@
+body{ 
+    background-color:rgb(241, 241, 241);
+    background-image:url("original.jpg") ; 
+    overflow-x: hidden;
+}
+/*BARRA HORIZONTAL DE TITULO*/
+.title{
+    display: block;
+    padding: 10px 0px 5px 40px;
+  /*rgb(228, 170, 228);*/
+    background-color: rgb(90, 14, 90);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.scrollabletextbox{
+    height:20px;
+    width:200px;
+      overflow:scroll;
+}
+.btn-primary{
+    background-color: rgb(90, 14, 90);
+}
+.btn-primary:hover{
+    background-color: rgb(179, 130, 179);
+}
+.numberInput{
+    width: 70px;
+}
+.productos{
+    background-color: rgb(232, 244, 255);
+    border: solid;
+    border-color: rgb(190, 213, 235);
+    border-radius: 20px;
+    height: 520px;
+    margin-left:0px;
+    /*centro*/
+    margin-right:30px;
+    margin-top: 50px;
+}
+.verProducto{
+    background-color: rgb(237, 232, 255);
+    border: solid;
+    border-color:rgb(193, 182, 233);
+    border-radius: 20px;
+    height: 640px;
+    margin-right:0px;
+    /*centro*/
+    margin-left:30px;
+}
+.Comentarios{
+    background-color: rgb(237, 232, 255);
+    border: solid;
+    border-color:rgb(193, 182, 233);
+    border-radius: 20px;
+    height: 620px;
+    width: 1200px;
+    margin-right:100px;
+    margin-top: 30px;
+    /*centro*/
+    margin-left:100px;
+}
+#comentario{
+    width: 800px;
+    height: 90px;
+}
+.MasComentarios{
+    text-align: left;
+    padding: 10px 30px 10px 100px; /*arriba derecha abajo izquierda*/
+}
+.verProducto li
+{
+    display: inline;
+}
+
+.verProducto li img
+{
+   display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.input-group{
+    width: 200px;
+}
+.productos{
+    position: left;
+}
+.valoracion li{
+    padding: 10px 15px 10px 15px; /*arriba derecha abajo izquierda*/
+    display: inline-block;
+}
+.infoBordes li{
+    list-style-type:none;
+    padding: 12px 12px 12px 12px; /*arriba derecha abajo izquierda*/
+    margin:20px;
+    width: 380px;
+    border: solid;
+    border-color: rgb(190, 213, 235);
+    border-radius: 20px;
+}

@@ -1,0 +1,40 @@
+body{ 
+    background-color:rgb(241, 241, 241);
+    background-image:url("original.jpg") ; 
+}
+/*BARRA HORIZONTAL DE TITULO*/
+.title{
+    display: block;
+    padding: 10px 0px 5px 40px;
+  /*rgb(228, 170, 228);*/
+    background-color: rgb(90, 14, 90);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#Continuar{
+    background-color: darkmagenta; 
+}
+
+#Imagen{
+    border: rgb(206, 162, 206) 5px solid;
+    width: 450px;
+    border-radius: 20px;
+}
+#Registrarse{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: rgb(90, 14, 90);
+    /*color: rgb(133, 133, 133);*/
+}
+.form-group {
+    font-family: 'Montserrat', sans-serif, bold;
+}
+.bloque1{
+    /*transform: translateX(+5%);*/
+    padding: 10px;
+    width: 800px;
+    border: rgb(167, 167, 167) 5px solid;
+    border-radius: 20px;
+    background-color: rgb(230, 195, 230);
+}

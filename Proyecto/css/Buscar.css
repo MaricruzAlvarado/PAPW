@@ -1,0 +1,68 @@
+body{ 
+    background-color:rgb(241, 241, 241);
+    background-image:url("original.jpg") ; 
+    overflow-x: hidden;
+}
+/*BARRA HORIZONTAL DE TITULO*/
+.title{
+    display: block;
+    padding: 10px 0px 5px 40px;
+  /*rgb(228, 170, 228);*/
+    background-color: rgb(90, 14, 90);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.scrollabletextbox{
+    height:20px;
+    width:200px;
+      overflow:scroll;
+}
+.btn-primary{
+    background-color: rgb(90, 14, 90);
+}
+.btn-primary:hover{
+    background-color: rgb(179, 130, 179);
+}
+.numberInput{
+    width: 70px;
+}
+.productos{
+    background-color: rgb(232, 244, 255);
+    border: solid;
+    border-color: rgb(190, 213, 235);
+    border-radius: 20px;
+    height: 550px;
+    margin-left:30px;
+    /*centro*/
+    margin-right:0;
+}
+.productosVendidos{
+    background-color: rgb(237, 232, 255);
+    border: solid;
+    border-color:rgb(193, 182, 233);
+    border-radius: 20px;
+    height: 620px;
+    margin-right:30px;
+    /*centro*/
+    margin-left:0;
+}
+
+.productosVendidos li, .ProductosEnVenta li
+{
+    display: inline;
+}
+
+.productosVendidos li img, .ProductosEnVenta li img
+{
+   display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.input-group{
+    width: 200px;
+}
+.productos{
+    position: left;
+}

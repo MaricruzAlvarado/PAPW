@@ -1,0 +1,36 @@
+body{ 
+    background-color:rgb(241, 241, 241);
+    background-image:url("original.jpg") ; 
+}
+/*BARRA HORIZONTAL DE TITULO*/
+.title{
+    display: block;
+    padding: 10px 0px 5px 40px;
+  /*rgb(228, 170, 228);*/
+    background-color: rgb(90, 14, 90);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#registrarse{
+    background-color: darkmagenta; 
+}
+
+#iniciarSesion{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: rgb(90, 14, 90);
+}
+.form-group {
+    font-family: 'Montserrat', sans-serif, bold;
+}
+
+.bloque1{
+    padding: 20px;
+    width: 600px;
+    border: rgb(167, 167, 167) 5px solid;
+    border-radius: 20px;
+    background-color: rgb(230, 195, 230);
+}
+
+

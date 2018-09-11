@@ -1,0 +1,84 @@
+body{ 
+    background-color:rgb(241, 241, 241);
+    background-image:url("original.jpg") ; 
+    overflow-x: hidden;
+}
+/*BARRA HORIZONTAL DE TITULO*/
+.title{
+    display: block;
+    padding: 10px 0px 5px 40px;
+  /*rgb(228, 170, 228);*/
+    background-color: rgb(90, 14, 90);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.productosEnCarrito{
+    background-color: rgb(234, 223, 253);
+    border: solid;
+    border-color: rgb(202, 188, 224);
+    border-radius: 20px;
+    height: 500px;
+    /*orilla*/
+    margin-left:30px;
+    /*centro*/
+    margin-right:0;
+}
+.enCarritoDatos{
+    
+    background-color: rgb(241, 232, 255);
+    border: solid;
+    border-color: rgb(202, 188, 224);
+    border-radius: 20px;
+    height: 300px;
+    /*orilla*/
+    margin-right:30px;
+    /*centro*/
+    margin-left:0;
+}
+.scrollabletextbox{
+    height:20px;
+    width:200px;
+    overflow:scroll;
+}
+.btn-primary{
+    background-color: rgb(90, 14, 90);
+}
+.btn-primary:hover{
+    background-color: rgb(179, 130, 179);
+}
+.numberInput{
+    width: 70px;
+}
+.historial{
+    background-color: rgb(255, 223, 243);
+    border: solid;
+    border-color: rgb(236, 191, 219);
+    border-radius: 20px;
+    height: 300px;
+    margin-left:30px;
+    /*centro*/
+    margin-right:0;
+}
+.detallesHistorial{
+    background-color: rgb(255, 223, 243);
+    border: solid;
+    border-color: rgb(236, 191, 219);
+    border-radius: 20px;
+    height: 300px;
+    margin-right:30px;
+    /*centro*/
+    margin-left:0;
+}
+
+.historial li
+{
+    display: inline;
+}
+
+.historial li img
+{
+   display: inline-block;
+    width: 100px;
+    height: 100px;
+}
